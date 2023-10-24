@@ -1,0 +1,122 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #5e5c5c;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #242323;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #242323;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3{
+    font-weight: 550;
+    font-size: 18px;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+label{
+    margin-left: 2%;
+}
+
+button{
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+    border-radius: 4px;
+    border-color: black;
+    border-width: .15rem;
+    padding-left: .15rem;
+    padding-right: .15rem;
+    margin: .1rem;
+    font-weight: 600;
+    color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:hover::after {
+    border: 3px solid rgb(158, 153, 153);
+}
+
+input[type='radio']:checked:hover::after {
+    border: 3px solid rgb(158, 153, 153);
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+/* input[type="checkbox"]:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 1px;
+    top: -2px;
+    left: -1px;
+    position: relative; 
+    background-color: #d1d3d1;
+     content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white; 
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 1px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(140, 31, 241);
+    color: #242323;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+} */
